@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#landing-jumbo {
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	background-color: #6DCCDE;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Zilla slab', serif;
+}
+
+#profile-picture {
+	background-image: url("../images/129605929_3425402534164333_6908642214436915809_o.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50vh;
+}
+
+.tech-stack {
+	height: 100px;
+	margin-top: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#html {
+	background-image: url("../images/2021-01-21 (1).png");
+
+}
+
+#css {
+	background-image: url("../images/2021-01-21 (3).png");
+}
+
+#js {
+	background-image: url("../images/2021-01-21.png");
+}
+
+#gitlab {
+	background-image: url("../images/2021-01-21 (2).png");
+
+}
+
+#google {
+	background-image: url("../images/2021-01-21 (1).jpg");
+}
+
+#work-button {
+	margin: 20px;
+}
+
+body {
+	background-color: #eee;
+}
+
+#main-section {
+	background-color: #fff;
+	padding: 70px 50px;
+	border-radius: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	padding: 5px;
+
+}
